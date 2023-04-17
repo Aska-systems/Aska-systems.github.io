@@ -1,0 +1,12 @@
+title: 'Ask us!'
+description1: 'サブスクリプションとは別に、案件単位のサービスも行っております。ご検討されている案件をヒアリングのうえ、可能な場合はAska project teamがサポート・代行いたします。（価格は案件依存となります）'
+description2: 'Ask us!は、ご登録いただいている組織に所属する方向けのサービスです。<br>新規ご登録もこちらのメールフォームから受け付けております。'
+image: 'img/aska_logo.svg'
+email: 'contact@aska.systems'
+phone: ''
+address: ''
+
+situations: 
+  - case: "{% t end_to_end %}"
+  - case: '特殊なケースでのAskaのご利用（大規模調査・センシティブな調査等）'
+  - case: '使い道について相談したいという方'

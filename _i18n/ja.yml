@@ -1,0 +1,50 @@
+hero:
+  product_fixed_image_name: 意見共有 プラットフォーム
+  product_fixed_image_text: もっと自由に問いかけよう<br>もっと柔軟に応えよう<br><br>社会調査・マーケティング調査, IT教材として。
+  product_fixed_image_btn_one_text: サインイン
+  product_fixed_image_btn_two_text: YouTube
+
+execution:
+  title: 人々の意見や印象の可視化
+  description: Askaは、人々の主観を効率的に集め、集約するアプリです。人々が何を考えているか・感じているかを捉えたいけれど、どうすればよいのか分からなくて困っていませんか？ぜひAskaをお試しください。
+  survey: 調査
+  survey_description: あなたのチームメイトから意見を集めたり、マーケティング調査にご活用できます。
+  training: トレーニング・教育
+  training_description: 採点しづらい技能の評価トレーニングや、教育アプリとしてご活用できます。
+  research: 研究・分析
+  research_description: 学術的な調査にもご活用できます。詳細な実験設定も可能です。
+
+products:
+  title: プロダクト
+  note: ＊旧バージョンのAska (v1.9)は実験用であり、製品化はされておりません。ご利用になりたい方は、最下部のメールフォーム (Ask us!) からproject teamまでご連絡ください。
+  aska:
+    title: Aska (v2)
+    description: グループチャットやSNSのように意見文章を共有し合うアプリです。自身の意見を提示するとともに、賛成する意見・選択肢に「いいね」していきます。文章だけでなく、画像・動画のデータについても評価を収集することができます。そしてAskaは、意見全体の最適化された可視化を提供してくれます。
+  omp:
+    title: OMP
+    description: 別のシステムを用いてデータを収集済みである場合にも我々のシステムをご活用いただけます。OMP (Optimal Matrix Plot) は、Askaの技術を分析ツールとして独立させたものです。
+
+price:
+  pricing_table_title: サービス & 価格
+  plan_starter_tagline: デモ用
+  plan_starter_description: <li>調査１個まで可能</li><li>質問１個まで可能</li><li>回答者20人まで可能</li><li>初期回答20個まで可能</li><li>OMP 利用不可</li><li>Ask us! 会員割引なし</li>
+  plan_standard_tagline: 個人用
+  plan_standard_description: <li>調査5個まで可能</li><li>質問3個まで可能</li><li>回答者100人まで可能</li><li>初期回答20個まで可能</li><li>OMP 利用可</li><li>Ask us! 会員割引あり</li>
+  plan_business_tagline: ビジネス用
+  plan_business_description: <li>調査30個まで可能</li><li>質問5個まで可能</li><li>回答者300人まで可能</li><li>初期回答100個まで可能</li><li>OMP 利用可</li><li>Ask us! 会員割引あり</li>
+  get_started: 始める
+
+contact:
+  description1: サブスクリプションとは別に、案件単位のサービスも行っております。ご検討されている案件をヒアリングのうえ、可能な場合はプロジェクトチームがサポートいたします。（価格は案件依存となります）
+  end_to_end: 調査から分析までオールインワンで依頼したい方
+  special_cases: 特殊なケースでのAskaのご利用（大規模調査・センシティブな調査等）
+  consulting: 用途について相談したいという方
+  your_name: ご所属・お名前
+  email: Eメールアドレス
+  subject: タイトル
+  message: お問い合わせ内容
+  send: 送信
+
+footer:
+  purpose: 我々は、主観データを分析する技術で世の中に貢献することを目的としています。
+

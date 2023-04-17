@@ -1,0 +1,69 @@
+    <!-- Start execution-secation -->
+    <section id="execution" class="execution-secation section-gap aquablue-bg">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <div class="title-img">
+                        <img src="{{ site.data.execution.image | relative_url }}" alt="">
+                    </div>
+                    <h1>{% t execution.title %} </h1>
+                    <p>
+                        {% t execution.description %} 
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center pb-80">
+                <div class="col-lg-8">
+                    <div class="youtubeWrapper">
+                    <iframe width="560" height="315" src="//www.youtube.com/embed/8HpwT1ReMC4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <!-- {% for slider in site.data.execution.slider  %}
+                    <img class="img-fluid" src="{{ slider.image | relative_url }}" alt="">
+                    {% endfor %} -->
+                </div>
+            </div>
+            <div class="row ex-porcess-wrap">
+                <div class="col-lg-4">
+                    <div class="single-ex-process d-flex flex-row mt-5">
+                        <div class="icon">
+                            <img src="{{ 'img/feature/i1.png' | relative_url }}" alt="">
+                        </div>
+                        <div class="desc ml-20">
+                            <h4>{% t execution.survey %}</h4>
+                            <p class="mt-20 mb-0">
+                                {% t execution.survey_description %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-ex-process d-flex flex-row mt-5">
+                        <div class="icon">
+                            <img src="{{ 'img/feature/s5.png' | relative_url }}" alt="">
+                        </div>
+                        <div class="desc ml-20">
+                            <h4>{% t execution.training %}</h4>
+                            <p class="mt-20 mb-0">
+                                {% t execution.training_description %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-ex-process d-flex flex-row mt-5">
+                        <div class="icon">
+                            <img src="{{ 'img/feature/f7.png' | relative_url }}" alt="">
+                        </div>
+                        <div class="desc ml-20">
+                            <h4>{% t execution.research %}</h4>
+                            <p class="mt-20 mb-0">
+                                {% t execution.research_description %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End execution-secation -->

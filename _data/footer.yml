@@ -1,0 +1,37 @@
+
+
+#####################################
+##########     footer      ###########
+#####################################
+
+title: 'About Us'
+description: 'Askaは、主観データを分析する技術で世の中に貢献することを目的としています。'
+
+resources_link_heading: 'Technology'
+resources_links: 
+  - text: 'Research'
+    link: '#'
+  - text: 'Before Aska'
+    link: 'https://www.aist.go.jp/aist_j/new_research/2019/nr20190821/nr20190821.html'
+
+features_link_heading2: 'Gallery'
+features_links2:
+  - text: 'Previous'
+    link: '#'
+  - text: 'Current'
+    link: '#'
+
+social_links:
+  - name: "facebook"
+    link: 'https://www.facebook.com/Aska.systems.jp'
+    icon: "fab fa-facebook-f"
+
+  - name: "Twitter"
+    link: 'https://twitter.com/Aska_systems_jp'
+    icon: "fab fa-twitter"
+
+  - name: "youtube"
+    link: '#'
+    icon: "fab fa-youtube"
+
+

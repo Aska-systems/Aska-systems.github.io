@@ -1,0 +1,51 @@
+hero:
+  product_fixed_image_name: Opinion sharing platform
+  product_fixed_image_text: Let's ask a question more freely. <br>Let's share your response more flexibly.<br><br>For social surveys, marketing researches, etc.
+  product_fixed_image_btn_one_text: Sign in
+  product_fixed_image_btn_two_text: YouTube
+
+execution:
+  title: Visualization of opinions & feelings
+  description: Do you ever find yourself struggling to capture what people are thinking and feeling? If so, why not give Aska a try. Aska allows you to collect and summarize people's opinions and feelings. 
+  survey: Survey
+  survey_description: You can gather opinions from your teammates and make use of it in marketing research.
+  training: Training & Education
+  training_description: It can be used as a training tool for evaluating difficult-to-score skills or as an educational app.
+  research: Research & Analysis
+  research_description: It can also be used in academic research, with the ability to set up detailed experiments.
+
+products:
+  title: Products
+  note: ＊The older version of Aska (v1.9) is for experimental use only and is not served as a product.
+  aska:
+    title: Aska (v2)
+    description: Aska is an app that allows users to share posts with each other, similar to group chats and social media platforms. Users can present their own opinions and also give 'likes' to opinions or choices they agree with. Aska also allows users to provide feedback on not only text-based posts, but also image and video data. Finally, Aska offers an optimized visualization of the entire responses.
+  omp:
+    title: OMP
+    description: You can also utilize our system even when you already have a dataset collected via another system. OMP (Optimal Matrix Plot) is an analysis tool separated from Aska's technology.
+
+price:
+  pricing_table_title: Services & Pricing
+  plan_starter_tagline: Demo use
+  plan_starter_description: <li>1 survey Available</li><li>1 question max.</li><li>20 respondents max.</li><li>20 initial choices max.</li><li>OMP Unavailable</li><li>No Ask us! Discount</li>
+  plan_standard_tagline: Personal use
+  plan_standard_description: <li>5 surveys max.</li><li>3 question max.</li><li>100 respondents max.</li><li>20 initial choices max.</li><li>OMP Available</li><li>Ask us! Discount Applied</li>
+  plan_business_tagline: Business use
+  plan_business_description: <li>30 surveys max.</li><li>5 question max.</li><li>300 respondents max.</li><li>100 initial choices max.</li><li>OMP Available</li><li>Ask us! Discount Applied</li>
+  get_started: Get started
+
+contact:
+  description1: In addition to subscriptions, we also offer project-based services. After hearing about the project you are considering, if possible, our project team will support. (Pricing depends on the project.)
+  end_to_end: For those who want to ask us an end-to-end service (survey & analysis)
+  special_cases: For those who plan to use Aska for special cases (large-scale surveys, sensitive surveys, etc.)
+  consulting: For those who want to discuss use cases
+  your_name: Your affiliation & Your Name
+  email: Email Address
+  subject: Subject
+  message: Inquiry Details
+  send: Send Inquiry
+
+footer:
+  purpose: We aim to contribute to society through our technology for analyzing subjective data.
+
+

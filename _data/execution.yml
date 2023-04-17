@@ -1,0 +1,21 @@
+title: "Visualization of opinions & feelings"
+description: 'Askaは、人々の主観を効率的に集め、集約するアプリです。人々が何を考えているか・感じているかを捉えたいけれど、どうすればよいのか分からなくて困っていませんか？ぜひAskaをお試しください。'
+image: 'img/aska_logo.svg'
+
+slider:
+  - image: 'img/aska_bg.svg'
+
+process: 
+  - title: Survey & Marketing
+    image: 'img/feature/i1.png'
+    description: 'あなたのチームメイトから意見を集めたり、マーケティング調査にご活用できます。'
+  
+  - title: Training & Education
+    image: 'img/feature/s5.png'
+    description: '採点しづらい技能の評価トレーニングや、教育アプリとしてご活用できます。'
+  
+  - title: Research & Analysis
+    image: 'img/feature/f7.png'
+    description: '学術的な調査にもご活用できます。詳細な実験設定も可能です。'
+
+

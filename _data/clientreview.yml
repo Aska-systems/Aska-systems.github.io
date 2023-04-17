@@ -1,0 +1,19 @@
+# Client
+- title: '大阪教育大学の授業で活用していただきました'
+  thumbnail: '/img/review/OsakaKyoikuDaigaku_2022.png'
+  text: '「AIを用いた意見共有システムの教育活用」をテーマに 全学FD事業を実施'
+  url: 'https://osaka-kyoiku.ac.jp/university/kouhou/topics/detail.html?itemid=7512&dispmid=5480'
+  
+
+# Client
+- title: '書籍で紹介していただきました'
+  thumbnail: ''
+  text: '『数理モデル思考で紐解く RULE DESIGN -組織と人の行動を科学する』（江崎貴裕 著）で紹介していただきました'
+  url: 'https://www.amazon.co.jp/%E6%95%B0%E7%90%86%E3%83%A2%E3%83%87%E3%83%AB%E6%80%9D%E8%80%83%E3%81%A7%E7%B4%90%E8%A7%A3%E3%81%8F-RULE-DESIGN-%E7%B5%84%E7%B9%94%E3%81%A8%E4%BA%BA%E3%81%AE%E8%A1%8C%E5%8B%95%E3%82%92%E7%A7%91%E5%AD%A6%E3%81%99%E3%82%8B-%E6%B1%9F%E5%B4%8E/dp/4802613865'
+
+
+# Client
+- title: 'Askaの基礎技術'
+  thumbnail: '/img/review/Nature_MI.png'
+  text: 'Askaは、Nature Machine Intelligenceに掲載された論文を基本思想として実装されたものです'
+  url: 'https://www.nature.com/articles/s42256-019-0071-y'
