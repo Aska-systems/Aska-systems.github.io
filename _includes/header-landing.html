@@ -3,8 +3,9 @@
         <div class="container-fluid">
             <div  class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <div id="logo"  class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                    {% if site.lang == "ja" %}                    
-                    <a href="/{{ link_ja | relative_url }}">
+                    {% if site.lang == "ja" %}
+                    {% capture link_ja %}{{ site.baseurl_root }}/ja{{ page.url }}{% endcapture %}
+                    <a href="{{ link_ja }}">
                         <img class="logo-1" src="{{ 'img/aska_logo_1.svg' | relative_url }}" alt="" title="" 
                            preserveAspectRatio="xMinYMin meet"
                            viewBox="0 0 100 50"

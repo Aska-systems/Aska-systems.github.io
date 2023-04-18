@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://aska.systems" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+url                 : "https://www.aska.systems/aska_LP/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
 system_url          : "https://main.d39ts829p8ct2s.amplifyapp.com/"
 favicon: 'img/favicon.ico'
 
