@@ -11,8 +11,8 @@ tagline             : 'description for your new site here'
 description: >- # this means to ignore newlines until "baseurl:"
   Aska is an opinion sharing platform that allows you to collect and summarize people's opinions and feelings.
 baseurl             : "" # the subpath of your site, e.g. /blog
-url                 : "https://www.aska.systems/aska_LP/" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
-system_url          : "https://main.d39ts829p8ct2s.amplifyapp.com/"
+url                 : "https://www.aska.systems" #  7277783  the base hostname & protocol for your site, e.g. http://example.com
+system_url          : "https://v2.aska.systems"
 favicon: 'img/favicon.ico'
 
 paginate: 12
