@@ -45,26 +45,25 @@
             </div>
 
             <div class="row justify-content-center section-title-wrap">
-                <form id="myForm" class="form-area contact-form" action="https://getform.io/f/{{ site.getform_id }}" method="POST">
+                <form class="form-area contact-form" action="https://getform.io/f/ec841fd0-f694-4cff-98c6-271cf42f53ae" method="POST">
                     <label for="" class="d-flex justify-content-start">{% t contact.your_name %}</label>
                     <input name="name" autocomplete="name" placeholder="" onfocus="this.placeholder = ''"
                         onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control"
-                        required="" type="text">
+                        required type="text">
 
                     <label for="" class="d-flex justify-content-start">{% t contact.email %}</label>
                     <input name="email" autocomplete="email" placeholder="" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
                         onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
-                        required="" type="email">
+                        required type="email">
 
                     <label for="" class="d-flex justify-content-start">{% t contact.subject %}</label>
                     <input name="subject" autocomplete="subject" placeholder="" onfocus="this.placeholder = ''"
                         onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control"
-                        required="" type="text">
+                        required type="text">
 
                     <label for="" class="d-flex justify-content-start">{% t contact.message %}</label>
                     <textarea class="common-textarea form-control" cols="30" rows="7" name="message" autocomplete="message"
-                        placeholder="" onfocus="this.placeholder = ''" onblur="this.placeholder = ''"
-                        required=""></textarea>
+                        required></textarea>
                     <!-- add hidden Honeypot input to prevent spams -->
                     <input type="hidden" name="_gotcha" style="display:none !important">
                     <div class="">
