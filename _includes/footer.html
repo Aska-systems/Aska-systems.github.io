@@ -58,12 +58,12 @@
                         <ul class="menu-list">
                           {% if site.lang == "ja" %}
                             {% capture link_en %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
-                            <li class="mr-4"><a href="{{ link_en }}">English</a></li>
+                            <li class="mr-4"><a href="/{{ link_en }}">English</a></li>
                             <li class="mr-4"><a href="#" >日本語</a></li>
                           {% else %}
                             {% capture link_ja %}{{ site.baseurl_root }}ja{{ page.url }}{% endcapture %}
                             <li class="mr-4"><a href="#">English</a></li>
-                            <li class="mr-4"><a href="{{ link_ja }}" >日本語</a></li>
+                            <li class="mr-4"><a href="/{{ link_ja }}" >日本語</a></li>
                           {% endif %}
                         </ul>
                     </div>
