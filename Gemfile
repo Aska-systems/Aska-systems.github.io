@@ -15,7 +15,6 @@ gem "jekyll"
 # gem "github-pages", group: :jekyll_plugins
 
 gem 'jekyll-admin', group: :jekyll_plugins
-gem 'jekyll-multiple-languages-plugin'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -24,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-multiple-languages-plugin'
 end
 
 
