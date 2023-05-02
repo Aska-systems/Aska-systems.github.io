@@ -8,13 +8,14 @@
                    {{ site.data.about.about_title }}
                 </h1>
                 <p class="pt-20 pb-20">
-                    {{ site.data.about.about_descript }}
-                    
+                    {% t about_studio.about_descript %}                    
                 </p>
                 <a href="{{ site.data.about.browse_free_btn_link }}" class="genric-btn2">{{ site.data.about.browse_free_btn_text }}</a>
             </div>
-            <div class="col-lg-6 text-center">
-                <img class="img-fluid" src="{{ site.data.about.image | relative_url }}" alt="">
+                <div class="col-lg-6 text-center">
+                <div class="youtubeWrapper">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/Fbn0FnO00FA" frameborder="0" allowfullscreen></iframe>
+                </div>                
             </div>
         </div>
     </div>

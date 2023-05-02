@@ -1,0 +1,44 @@
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+
+# Personal Plan
+plan_starter_name: Consulting
+plan_starter_tagline: Demo use
+plan_starter_price: '<span>$900</span>'
+plan_starter_description: '<li>Requirement gathering</li>
+                           <li>Video is provided by the customer</li>
+                           <li>Video assessment report</li>
+                           '
+plan_starter_url: {{ site.system_url }}
+plan_starter_btn_text: 'Get Started'
+
+# Team Plan
+plan_standard_name: Supporting
+plan_standard_tagline: Personal use
+plan_standard_price: '<span>$1,500</span>'
+plan_standard_description: ' <li>Requirement gathering</li>
+                           <li>Slides and lines are provided by the customer</li>
+                           <li>Video generation</li>
+                           <li>Video assessment report</li>
+                           '
+plan_standard_url: '#'
+plan_standard_btn_text: 'Get Started'
+
+
+# business Plan
+plan_business_name: Production
+plan_business_tagline: Business uses
+plan_business_price: '<span>$3,000</span>'
+plan_business_description: ' <li>Requirement gathering</li>
+                           <li>Slides and lines</li>
+                           <li>Video generation</li>
+                           <li>Video assessment report</li>
+                           '
+
+plan_business_url: '#'
+plan_business_btn_text: 'Get Started'
+
+

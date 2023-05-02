@@ -48,3 +48,36 @@ contact:
 footer:
   purpose: 我々は、主観データを分析する技術で世の中に貢献することを目的としています。
 
+
+about_studio:
+  about_descript: １〜２分程度のショート動画の作成を、サポートいたします。<br><ul><li>提供いただいた素材を基に、解説動画を作成し、</li><li>Askaを用いて、動画のクオリティチェックを実施します。</li></ul>
+
+price_studio:
+  pricing_table_title: サービス & 価格
+  plan_starter_price: <h3>¥120,000</h3> (税別)
+  plan_starter_tagline: 動画チェック <br> のみ
+  plan_starter_description: <li><b>ヒアリング</b> (オンライン)</li><li><b>動画チェック報告レポート</b> (< 50人)</li><li><div class="text-muted">動画生成なし</div></li><li><div class="text-muted">動画掲載なし</div></li><li>ヒアリング後1~2週間ほどで納品</li>
+  plan_starter_price_options: お問い合わせください
+  plan_starter_options: 他のオプションをご希望の場合は
+  plan_standard_price: <h3>¥200,000</h3> (税別)
+  plan_standard_tagline: 動画生成 <br> & 動画チェック
+  plan_standard_description: <li><b>ヒアリング</b> (オンライン)</li><li><b>動画チェック報告レポート</b> (< 50人)</li><li><b>動画生成</b><br>(2分以内程度)</li><li>YouTubeチャンネルでの動画掲載 (オプション)</li><li>ヒアリング後1~2週間ほどで納品</li>
+  plan_standard_price_options: <h3>¥82,000</h3> (税別)
+  plan_standard_options: 動画チェックをご希望されない場合は
+  plan_business_price: <h3>¥400,000</h3> (税別)
+  plan_business_tagline: クリエイティブ <br> & 動画チェック
+  plan_business_description: <li><b>ヒアリング</b> (オンライン)</li><li><b>動画チェック報告レポート</b> (< 50人)</li><li><b>クリエイティブ作成を含めた動画生成</b></li><li>YouTubeチャンネルでの動画掲載 (オプション)</li><li>ヒアリング後3~4週間ほどで納品</li>
+  plan_business_price_options: お問い合わせ
+  plan_business_options: 他のオプションをご希望の場合は
+  get_started: お問い合わせ
+
+contact_studio:
+  title: 発注 & お問合せ
+  your_name: ご所属・お名前
+  email: Eメールアドレス
+  subject: プラン
+  consulting_plan: Consulting プラン
+  supporting_plan: Supportig プラン
+  production_plan: Production プラン
+  message: お問合せ内容
+  send: 送信

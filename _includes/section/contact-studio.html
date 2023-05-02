@@ -1,0 +1,55 @@
+    <!-- Start contact section -->
+    <section id="contact-studio" class="contact-section section-gap">
+        <div class="container">
+            <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <h1>{% t contact_studio.title %}</h1>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center section-title-wrap">
+                <form class="form-area contact-form" action="https://getform.io/f/ec841fd0-f694-4cff-98c6-271cf42f53ae" method="POST">
+                    <label for="" class="d-flex justify-content-start">{% t contact_studio.your_name %}</label>
+                    <input name="name" autocomplete="name" placeholder="" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control"
+                        required type="text">
+
+                    <label for="" class="d-flex justify-content-start">{% t contact_studio.email %}</label>
+                    <input name="email" autocomplete="email" placeholder="" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control"
+                        required type="email">
+
+                    <label for="" class="d-flex justify-content-start">{% t contact_studio.subject %}</label>
+                    <!-- <input name="subject" autocomplete="subject" placeholder="" onfocus="this.placeholder = ''"
+                        onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control"
+                        required type="text"> -->
+                    <select class="form-select common-input mb-20 form-control" name="subject" required>
+                      <option value="<Aska Studio> Consulting plan" selected>{% t contact_studio.consulting_plan %}</option>
+                      <option value="<Aska Studio> Supporting plan">{% t contact_studio.supporting_plan %}</option>
+                      <option value="<Aska Studio> Production plan">{% t contact_studio.production_plan %}</option>
+                    </select>
+
+                    <label for="" class="d-flex justify-content-start">{% t contact_studio.message %}</label>
+                    <textarea class="common-textarea form-control" cols="30" rows="7" name="message" autocomplete="message"
+                        required></textarea>
+                    <!-- add hidden Honeypot input to prevent spams -->
+                    <input type="hidden" name="_gotcha" style="display:none !important">
+                    <div class="">
+                        <button class="genric-btn mt-30" type="submit">{% t contact_studio.send %}</button>
+                        <div class="alert-msg"></div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- <div class="row justify-content-center section-title-wrap">
+                <div class="col-lg-12">
+                    <p>
+                       {{ site.data.contact.description2 }}
+                    </p>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+    <!-- End contact section -->

@@ -14,12 +14,12 @@ resources_links:
   - text: 'Before Aska'
     link: 'https://www.aist.go.jp/aist_j/new_research/2019/nr20190821/nr20190821.html'
 
-features_link_heading2: 'Gallery'
+features_link_heading2: 'Services'
 features_links2:
-  - text: 'Previous'
-    link: '#'
-  - text: 'Current'
-    link: '#'
+  - text: 'Aska'
+    link: '/'
+  - text: 'Aska Studio'
+    link: '/studio/'
 
 social_links:
   - name: "facebook"

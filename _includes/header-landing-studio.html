@@ -1,0 +1,68 @@
+    <!-- start Header Area -->
+    <header id="header7" >
+        <div class="container-fluid">
+            <div  class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <div id="logo"  class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                    {% if site.lang == "ja" %}
+                    {% capture link_ja %}{{ site.baseurl_root }}/ja{{ page.url }}{% endcapture %}
+                    <a href="{{ link_ja }}">
+                        <img class="logo-1" src="{{ 'img/aska_logo.svg' | relative_url }}" alt="" title="" 
+                           preserveAspectRatio="xMinYMin meet"
+                           viewBox="0 0 100 50"
+                           x="0px" y="10px" width="100px" height="50px"
+                        />
+                    </a>
+                    <a href="{{ link_ja }}">
+                        <img class="logo-2" src="{{ 'img/aska_logo.svg' | relative_url }}" alt="" title="" 
+                           preserveAspectRatio="xMinYMin meet"
+                           viewBox="0 0 100 50"
+                           x="0px" y="10px" width="100px" height="50px"
+                        />
+                    </a>
+                    {% else %}
+                    {% capture link_en %}{{ site.baseurl_root }}{{ page.url }}{% endcapture %}
+                    <a href="{{ link_en }}">
+                        <img class="logo-1" src="{{ 'img/aska_logo.svg' | relative_url }}" alt="" title="" 
+                           preserveAspectRatio="xMinYMin meet"
+                           viewBox="0 0 100 50"
+                           x="0px" y="10px" width="100px" height="50px"
+                        />
+                    </a>
+                    <a href="{{ link_en }}">
+                        <img class="logo-2" src="{{ 'img/aska_logo.svg' | relative_url }}" alt="" title="" 
+                           preserveAspectRatio="xMinYMin meet"
+                           viewBox="0 0 100 50"
+                           x="0px" y="10px" width="100px" height="50px"
+                        />
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="nav-wrap d-flex flex-row align-items-center">
+                    <nav id="nav-menu-container">
+                        <ul class="nav-menu">
+                        {% if site.lang == "ja" %}
+                            {% capture link_ja %}{{ site.baseurl_root }}ja{{ page.url }}{% endcapture %}
+                            <li class="menu-has-children">
+                                <a href="#execution">Askaとは？</a>
+                            </li>
+                            <li>
+                                <a href="/ja/studio/#pricing-studio">サービス・価格</a>
+                            </li>
+                        {% else %}
+                            <li class="menu-has-children">
+                                <a href="{{ '/#execution' | relative_url }}">What's Aska?</a>
+                            </li>
+                            <li>
+                                <a href="{{ '/studio/#pricing-studio' | relative_url }}">Pricing</a>
+                            </li>
+                        {% endif %}
+                        </ul>
+                    </nav>
+                </div>
+                <!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header>
+    <!-- End Header Area -->
+
+

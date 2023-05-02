@@ -1,8 +1,5 @@
-about_title: ' We are the one  <br> Who place idea on table'
-about_descript: 'The first is a non technical method which requires the use of adware removal software. Download free adware and spyware removal
-                    software and use advanced tools to help prevent getting infected. Spyware scan review is a free service
-                    for anyone interested in downloading spyware/adware removal software. Our adware remover is the most
-                    trusted.'
-browse_free_btn_text: 'Browse free demo'
-browse_free_btn_link: '#'
-image: 'img/about-img.png'
+about_title: ' Aska <span style="color: #5bb7b7">Studio</span>'
+about_descript: '１分程度のショート動画の作成をサポートいたします。<br><ul><li>提供いただいた素材を基に、解説動画を作成し、</li><li>Askaを用いて、動画のクオリティチェックを実施します。</li></ul>'
+browse_free_btn_text: 'Order'
+browse_free_btn_link: '#contact-studio'
+image: 'vdo/AskaStudio_ja.mp4'
