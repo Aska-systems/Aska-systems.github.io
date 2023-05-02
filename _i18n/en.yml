@@ -54,17 +54,17 @@ about_studio:
 
 price_studio:
   pricing_table_title: Services & Pricing
-  plan_starter_price: <span>$900</span> (+tax)
+  plan_starter_price: <span>$xxx</span> (+tax)
   plan_starter_tagline: Assessment <br> only
   plan_starter_description: <li><b>Requirement gathering</b> (online)</li><li><b>Video assessment report</b> (< 50 people)</li><li><div class="text-muted">No video generation</div></li><li><div class="text-muted">No video upload</div></li><li>1~2 weeks from the requirement gathering to the delivery date</li>
   plan_starter_price_options: contact us
   plan_starter_options: For more options
-  plan_standard_price: <span>$1,500</span> (+tax)
+  plan_standard_price: <span>$xxx</span> (+tax)
   plan_standard_tagline: Video <br> & Assessment
   plan_standard_description: <li><b>Requirement gathering</b> (online)</li><li><b>Video assessment report</b> (< 50 people)</li><li><b>Video generation</b> (approx. < 2 min.)</li><li>Video upload on our YouTube channel (optional)</li><li>1~2 weeks from the requirement gathering to the delivery date</li>
-  plan_standard_price_options: $600 (+tax)
+  plan_standard_price_options: $xxx (+tax)
   plan_standard_options: Plan without assessment
-  plan_business_price: <span>$3,000</span> (+tax)
+  plan_business_price: <span>$xxx</span> (+tax)
   plan_business_tagline: Creatives <br> & Assessment
   plan_business_description: <li><b>Requirement gathering</b> (online)</li><li><b>Video assessment report</b> (< 50 people)</li><li><b>Video generation including creatives</b></li><li>Video upload on our YouTube channel (optional)</li><li>3~4 weeks from the requirement gathering to the delivery date</li>
   plan_business_price_options: contact us
