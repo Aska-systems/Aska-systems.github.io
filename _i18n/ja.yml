@@ -26,12 +26,12 @@ products:
 
 price:
   pricing_table_title: サービス & 価格
-  plan_starter_tagline: デモ用
+  plan_starter_tagline: デモ用途
   plan_starter_description: <li>調査１個まで可能</li><li>質問１個まで可能</li><li>回答者20人まで可能</li><li>初期回答20個まで可能</li><li>OMP 利用不可</li><li>Ask us! 会員割引なし</li>
-  plan_standard_tagline: 個人用
+  plan_standard_tagline: 個人向け
   plan_standard_description: <li>調査5個まで可能</li><li>質問3個まで可能</li><li>回答者100人まで可能</li><li>初期回答20個まで可能</li><li>OMP 利用可</li><li>Ask us! 会員割引あり</li>
-  plan_business_tagline: ビジネス用
-  plan_business_description: <li>調査30個まで可能</li><li>質問5個まで可能</li><li>回答者300人まで可能</li><li>初期回答100個まで可能</li><li>OMP 利用可</li><li>Ask us! 会員割引あり</li>
+  plan_business_tagline: 企業向け
+  plan_business_description: <li>調査数 無制限</li><li>質問数 無制限</li><li>回答者数 無制限</li><li>初期回答数 無制限</li><li>OMP 利用可</li><li>Ask us! 会員割引あり</li>
   get_started: 始める
 
 contact:

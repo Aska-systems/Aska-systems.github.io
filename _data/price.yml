@@ -8,8 +8,8 @@ pricing_table_description: ""
 
 # Personal Plan
 plan_starter_name: FREE
-plan_starter_tagline: Demo use
-plan_starter_price: '<span>$0</span>/mo'
+plan_starter_tagline: Demo
+plan_starter_price: '<span>$0</span>/year'
 plan_starter_description: '<li>1 survey Available</li>
                            <li>1 question max.</li>
                            <li>20 respondents max.</li>
@@ -21,8 +21,8 @@ plan_starter_btn_text: 'Get Started'
 
 # Team Plan
 plan_standard_name: LITE
-plan_standard_tagline: Personal use
-plan_standard_price: '<span>$30</span>/mo'
+plan_standard_tagline: Personal
+plan_standard_price: '<span>$1,000</span>/year'
 plan_standard_description: ' <li>5 surveys max.</li>
                            <li>3 question max.</li>
                            <li>100 respondents max.</li>
@@ -35,12 +35,12 @@ plan_standard_btn_text: 'Get Started'
 
 # business Plan
 plan_business_name: STANDARD
-plan_business_tagline: Business uses
-plan_business_price: '<span>$80</span>/mo'
-plan_business_description: ' <li>30 surveys max.</li>
-                           <li>5 question max.</li>
-                           <li>300 respondents max.</li>
-                           <li>100 initial choices max.</li>
+plan_business_tagline: Enterprise
+plan_business_price: '<span>Contact us</span>'
+plan_business_description: ' <li>Unlimited surveys</li>
+                           <li>Unlimited questions</li>
+                           <li>Unlimited respondents</li>
+                           <li>Unlimited initial choices</li>
                            <li>OMP Available</li>
                            <li>Ask us! Discount</li>'
 

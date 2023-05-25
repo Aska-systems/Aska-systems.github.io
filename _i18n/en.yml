@@ -26,12 +26,12 @@ products:
 
 price:
   pricing_table_title: Services & Pricing
-  plan_starter_tagline: Demo use
+  plan_starter_tagline: Demo
   plan_starter_description: <li>1 survey Available</li><li>1 question max.</li><li>20 respondents max.</li><li>20 initial choices max.</li><li>OMP Unavailable</li><li>No Ask us! Discount</li>
-  plan_standard_tagline: Personal use
+  plan_standard_tagline: Personal
   plan_standard_description: <li>5 surveys max.</li><li>3 question max.</li><li>100 respondents max.</li><li>20 initial choices max.</li><li>OMP Available</li><li>Ask us! Discount Applied</li>
-  plan_business_tagline: Business use
-  plan_business_description: <li>30 surveys max.</li><li>5 question max.</li><li>300 respondents max.</li><li>100 initial choices max.</li><li>OMP Available</li><li>Ask us! Discount Applied</li>
+  plan_business_tagline: Enterprise
+  plan_business_description: <li>Unlimited surveys</li><li>Unlimited questions</li><li>Unlimited respondents</li><li>Unlimited initial choices</li><li>OMP Available</li><li>Ask us! Discount Applied</li>
   get_started: Get started
 
 contact:
