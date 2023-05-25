@@ -15,7 +15,11 @@
             <div class="row justify-content-center pb-80">
                 <div class="col-lg-8">
                     <div class="youtubeWrapper">
-                    <iframe width="560" height="315" src="//www.youtube.com/embed/8HpwT1ReMC4" frameborder="0" allowfullscreen></iframe>
+                        {% if site.lang == "ja" %}
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/FmeN5VMyudg" frameborder="0" allowfullscreen></iframe>
+                        {% else %}
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/5curUGYkbew" frameborder="0" allowfullscreen></iframe>
+                        {% endif %}
                     </div>
                     <!-- {% for slider in site.data.execution.slider  %}
                     <img class="img-fluid" src="{{ slider.image | relative_url }}" alt="">
