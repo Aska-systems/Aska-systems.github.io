@@ -71,7 +71,7 @@ product_fixed_image_sp: "img/aska_bg.svg"
 product_fixed_image_name: 'Opinion sharing <br> platorm' 
 product_fixed_image_text: "Let's ask a question more freely. <br>Let's share your response more flexibly.<br><br>For social surveys, marketing researches, etc."
 product_fixed_image_image: 'img/iPhoneX.png'
-product_fixed_image_btn_one_link: '#'
+product_fixed_image_btn_one_link: 'https://www.aska.systems'
 product_fixed_image_btn_one_text:  'Sign in'
 product_fixed_image_btn_two_link: '#'
 product_fixed_image_btn_two_text: 'YouTube'
