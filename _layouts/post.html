@@ -1,0 +1,92 @@
+---
+layout: default
+disqus: false
+archive: false
+post_class: post-template
+---
+
+<!-- Begin Article
+================================================== -->
+
+	<div class="row">
+		
+
+		<!-- Post -->        
+        {% assign author = site.authors[page.author] %}
+        
+		<div class="col-sm-8">
+            <!-- Post Featured Image -->
+			{% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+			<!-- End Featured Image -->
+			<div class="mainheading">             
+                
+                <!-- Post Categories -->
+                <div class="after-post-tags">
+                    <ul class="tags">
+                        {% assign sortedCategories = page.categories | sort %}
+                        {% for category in sortedCategories %}
+                        <li>
+                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!-- End Categories -->
+                
+                <!-- Post Title -->
+                <div class="row align-items-center justify-content-between mb-3 mr-2">
+    				<h1 class="col-md-8 posttitle">{{ page.title }}</h1> 
+
+                    {% if page.website %}
+                    <div class="col-md-4 text-center">
+                        <a href="{{ page.website }}" class="btn btn-primary text-white px-5 btn-lg">ウェブサイト<i class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                    {% endif %}
+                </div>
+			</div>
+
+			
+
+			<!-- Post Content -->
+			<div class="article-post">
+				{{content}}
+                <div class="clearfix"></div>
+			</div>
+
+            
+            <!-- Prev/Next -->
+            <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
+              {% if page.previous.url %}
+                <div class="col-md-6 rightborder pl-0">
+                    <a class="thepostlink" href="{{page.next.url | absolute_url}}">&laquo; {{page.next.title}}</a>
+                </div>
+              {% endif %}
+              {% if page.next.url %}
+                <div class="col-md-6 text-right pr-0">
+                    <a class="thepostlink" href="{{page.previous.url | absolute_url}}">{{page.previous.title}} &raquo;</a>
+                </div>
+              {% endif %}
+            </div>
+            <!-- End Prev/Next -->
+            
+            
+            
+            
+
+		</div>
+		<!-- End Post -->
+
+
+        
+
+		<!-- Sidebar -->
+        <div class="col-sm-4">
+            {% include sidebar.html %}
+            </div>
+        
+        
+
+	</div>
+
+<!-- End Article
+================================================== -->
