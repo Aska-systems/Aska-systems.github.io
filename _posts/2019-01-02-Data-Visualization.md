@@ -24,6 +24,8 @@ If you want to beautifully and clearly visualize your survey results, please pla
 (Note: The versions posted on Instagram have additional background decorations, but we deliver only the Bouquet Diagram itself.)
 
 
+<h6>** The payment is currently available only in Japanese</h6>
+
 <script async
   src="https://js.stripe.com/v3/buy-button.js">
 </script>

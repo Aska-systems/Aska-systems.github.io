@@ -29,7 +29,7 @@ The plan includes making final adjustments based on the review results.
 </script>
 
 <stripe-buy-button
-  buy-button-id="buy_btn_1OS9xiDo8uVOKmA4HpUD2YHZ"
+  buy-button-id="buy_btn_1OULslDo8uVOKmA4HM0eOChi"
   publishable-key="pk_live_51NqUGqDo8uVOKmA4DtdZ9oO9YwBtkt1dZQ0Qc1DQtjypo6Z2wVXXU9ftcghkFhA7dccnyfIJZ7Jz91a1t0StNCsF00gm5qcv37"
 >
 </stripe-buy-button>
