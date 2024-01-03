@@ -1,22 +1,24 @@
 ---
 layout: page
-title: お問合せ
+title: Contact Us
 permalink: "/contact/"
 comments: false
 ---
 
+{% assign selected_lang = page.lang | default: site.default_lang %}
+
 <form action="https://getform.io/f/ec841fd0-f694-4cff-98c6-271cf42f53ae" method="POST">    
-<p class="mb-4">調査設計サポート・小規模調査・データクリーニングのご相談・お見積もりはこちらにて承っております。</p>
+<p class="mb-4">{{ site.data.languages[selected_lang].contact_us_description }}</p>
 <div class="form-group row">
 <div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="お名前・ご所属" required>
+<input class="form-control" type="text" name="name" placeholder="{{ site.data.languages[selected_lang].contact_us_name }}*" required>
 </div>
 <div class="col-md-6">
-<input class="form-control" type="email" name="email" placeholder="Eメールアドレス*" required>
+<input class="form-control" type="email" name="email" placeholder="{{ site.data.languages[selected_lang].contact_us_email }}*" required>
 </div>
 <!-- add hidden Honeypot input to prevent spams -->
 <input type="hidden" name="_gotcha" style="display:none !important">
 </div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="お問合せ内容*" required></textarea>    
-<input class="btn btn-dark" type="submit" value="送信">
+<textarea rows="8" class="form-control mb-3" name="message" placeholder="{{ site.data.languages[selected_lang].contact_us_message }}*" required></textarea>    
+<input class="btn btn-dark" type="submit" value="{{ site.data.languages[selected_lang].contact_us_submit }}">
 </form>

@@ -2,14 +2,13 @@
     <div class="sidebar-section">
         <h5><span>About us</span></h5>
         <p>
-            「意見・印象・味覚など、あらゆる主観データを定量的な分析を。」
+            {{ site.data.languages[selected_lang].about_us_description_1 }}
         </p>
         <p>
-            独自の意見共有プラットフォーム「Aska」を主に活用し、アンケート調査に関連する様々なサービスを提供しています。
-            その他、自社でAskaを活用した周辺サービスを展開しています。
+            {{ site.data.languages[selected_lang].about_us_description_2 }}
         </p>
         <div class="col-md-12 text-center">
-            <a href="{{site.baseurl}}/contact" class="btn btn-primary text-white px-5">お問合せ</a>
+            <a href="{{site.baseurl}}/contact" class="btn btn-primary text-white px-5">{{ site.data.languages[selected_lang].contact_us }}</a>
             <img class="intro" height="500" src="{{site.baseurl}}/assets/images/aska_bg.svg">
         </div>
     </div>
@@ -21,22 +20,21 @@
             </div>
         </div>
         <h6>
-            川本 達郎
+            {{ site.data.languages[selected_lang].about_ceo_name }}
         </h6>
 
         <p>
-            機械学習技術を活用したアンケート手法を提案（<a href="https://www.nature.com/articles/s42256-019-0071-y">Nature系列誌 <i class="fas fa-external-link-alt"></i></a>）。
-            その後実用に向けて改良を進め、SaaSアプリ「Aska」としてプロダクト化し、2023年に合同会社Aska Intelligenceを創業。
+            {{ site.data.languages[selected_lang].about_ceo_description }}
         </p>
-        <h6>経歴</h6>
+        <h6>{{ site.data.languages[selected_lang].career }}</h6>
         <ul type="circle">
-            <li>・国立研究開発法人 産業技術総合研究所 人工知能研究センター 主任研究員 (休職中)</li>
-            <li>・英ネイチャー系列誌、情報系国際会議（NeurIPS）および物理系論文誌（Physical Review）等での学術誌掲載あり</li>
-            <li>・日本神経回路学会誌（2014年）、日本物理学会誌（2020年）、人工知能学会誌（2023年）にも解説記事を寄稿</li>
+            <li>{{ site.data.languages[selected_lang].career_item_1 }}</li>
+            <li>{{ site.data.languages[selected_lang].career_item_2 }}</li>
+            <li>{{ site.data.languages[selected_lang].career_item_3 }}</li>
         </ul>
 
         <div class="col-md-12 text-center">
-            <a href="https://tatsuro-kawamoto-jp.github.io/" class="btn btn-primary text-white px-5">個人ページ</a>
+            <a href="https://tatsuro-kawamoto-jp.github.io/" class="btn btn-primary text-white px-5">{{ site.data.languages[selected_lang].personal_website }}</a>
         </div>
     </div>
 </div>

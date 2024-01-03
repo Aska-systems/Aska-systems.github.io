@@ -4,6 +4,8 @@ layout: default
 background: '/img/bg-index.jpg'
 ---
 
+{% assign selected_lang = page.lang | default: site.default_lang %}
+
 <!-- Home Intro
 ================================================== -->
 {% if page.url == "/" %} 
@@ -11,9 +13,9 @@ background: '/img/bg-index.jpg'
 <div class="jumbotron">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-12">
-      <span class="small text-white">合同会社</span>
+      <span class="small text-white">{{ site.data.languages[selected_lang].LLC_front }}</span>
       <h1 class="font-weight-bold mb-4 serif-font text-white">Aska Intelligence</h1>
-      <p class="lead mb-4 small text-white">あなたの調査をもっと深く、分かりやすく。</p>
+      <p class="lead mb-4 small text-white">{{ site.data.languages[selected_lang].company_description }}</p>
       <!-- <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About us</a> -->
     </div>
 <!--     <div class="col-md-6 text-right pl-0 pl-lg-4">
@@ -24,7 +26,7 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
-<h3 class="mb-3">商品・サービス</h3>
+<h3 class="mb-3">{{ site.data.languages[selected_lang].products_services }}</h3>
 
 <!-- Featured
 ================================================== -->
@@ -46,9 +48,11 @@ background: '/img/bg-index.jpg'
     <div class="row">
       {% for post in paginator.posts %}
       {% unless post.featured == true %}
+      {% if post.lang == selected_lang %}
       <div class="col-md-6 mb-5">
         {% include postbox.html %}
       </div>
+      {% endif %}
       {% endunless %}
       {% endfor %}
     </div>

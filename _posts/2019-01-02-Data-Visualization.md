@@ -1,25 +1,27 @@
 ---
 layout: post
-title:  "花束ダイアグラム"
+title:  "Data Visualization"
 author: bouquet_diagram
-categories: アンケート関係
-image: assets/images/Hanataba_diagram.png
-website: https://www.instagram.com/hanataba_diagram/
+categories: ['Survey']
+image: assets/images/Hanataba_diagram_en.png
+website: https://www.instagram.com/bouquet_diagram/
+lang: 'en'
 ---
-提供いただいたアンケート調査データから「花束ダイアグラム」を作成します。
+We offer a service to beautifully visualize your survey data.
 
-### 花束ダイアグラムとは（簡単な説明）
-「30代の男性のうちで、クリスマスを祝う人の割合」とか、「クリスマスを祝わない40代の人のうちで、女性の割合」のように、属性で分岐させた先に円グラフ（pie chart）を表示する図です。いろんな条件のもとで、結果の特徴を見渡すことができます。
+From the data you provide, we create various visualizations, including the "Bouquet Diagram."
+
+## Bouquet Diagram
+### Brief Description
+This is a chart that shows pie charts at the end of branches based on attributes, like "the percentage of men in their 30s who celebrate Christmas" or "the percentage of women among people in their 40s who don't celebrate Christmas." It allows you to overview the characteristics of results under various conditions.
+
+### Detailed Description
+This is a diagram that represents multi-dimensional contingency tables with dendrograms and pie charts. Unlike normal dendrograms that inherently have a hierarchical structure, here, since the attributes themselves don't have a hierarchy, by default, we draw all combinations of branches. The different branches are not independent; combinations with the same conditions will have the same distribution (reflecting the symmetry of the hypergeometric distribution). Behind the scenes, we calculate p-values using exact tests or chi-squared tests, allowing us to "prune" the branches of the dendrogram (note that this involves issues with multiple testing, so care must be taken when assessing statistical significance). If you have specific filtering conditions you want to focus on, we can "prune" accordingly.
 
 
-### 詳しい説明
-多次元分割表を、デンドログラムと円グラフで表現した図です。通常のデンドログラムは元々階層構造がありますが、ここではそれぞれの属性自体には階層構造がないので、デフォルトではすべての分岐の組み合わせを描画します。
-異なる枝たちはすべて独立ではなく、条件付けの組合せが同じものは同じ分布になります（超幾何分布の対称性）。裏ではp値を正確検定orカイ2乗検定で算出しているので、それで分岐の枝を“剪定“することもできます（多重検定の問題を孕んでいるので、統計的有意性の評価は注意が必要です）。具体的に注目したい絞り込み条件があれば、それに応じて“剪定“もできます。
-
-### ご注文
-企業の調査・卒業研究・修士論文で実施したアンケートの集計結果を綺麗に分かりやすくビジュアライズしたいという方は、ご注文ください。
-ご指定の色・フィルタリング条件に応じて、SVGファイル（ベクトルデータ）とPNGファイル（画像データ）を各１点ずつ納品いたします。
-（注：インスタグラムに掲載しているものは、背景等の装飾を施しておりますが、納品は花束ダイアグラム本体のみとなります）
+## Orders
+If you want to beautifully and clearly visualize your survey results, please place an order. Depending on your specified colors and filtering conditions, we will deliver one SVG file (vector data) and one PNG file (image data) each.
+(Note: The versions posted on Instagram have additional background decorations, but we deliver only the Bouquet Diagram itself.)
 
 
 <script async

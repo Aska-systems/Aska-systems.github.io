@@ -9,6 +9,7 @@ author: Sal
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
+default_lang: en
 lang: en_us
 feed_items: 10
 feed_update_period: daily
@@ -28,24 +29,24 @@ authors:
     name: Aska Studio
     display_name: Aska Studio
     avatar: 'assets/images/sal.png'
-    instagram: https://www.instagram.com/aska__studio/
-    web: https://www.instagram.com/aska__studio/
+    instagram: https://www.instagram.com/aska___studio/
+    web: https://www.instagram.com/aska___studio/
     twitter: https://twitter.com/skaIntelligence
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: ""
   bouquet_diagram:
     name: Bouquet Diagram
-    display_name: 花束ダイアグラム
+    display_name: Bouquet Diagram
     avatar: 'assets/images/john.png'
-    instagram: https://www.instagram.com/hanataba_diagram/
-    web: https://www.instagram.com/hanataba_diagram/
+    instagram: https://www.instagram.com/bouquet_diagram/
+    web: https://www.instagram.com/bouquet_diagram/
     twitter: https://twitter.com/skaIntelligence
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+    description: ""
 
 # Social
 social:
-  instagram: https://www.instagram.com/hanataba_diagram/
-  facebook: https://www.facebook.com/Aska.systems.jp
-  twitter: https://twitter.com/skaIntelligence
+  instagram: https://www.instagram.com/bouquet_diagram/
+  facebook: https://www.facebook.com/Aska.systems
+  # twitter: https://twitter.com/skaIntelligence
 
 # Plugins
 plugins: 

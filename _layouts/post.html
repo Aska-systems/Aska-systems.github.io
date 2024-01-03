@@ -5,6 +5,8 @@ archive: false
 post_class: post-template
 ---
 
+{% assign selected_lang = page.lang | default: site.default_lang %}
+
 <!-- Begin Article
 ================================================== -->
 
@@ -39,7 +41,7 @@ post_class: post-template
 
                     {% if page.website %}
                     <div class="col-md-4 text-center">
-                        <a href="{{ page.website }}" class="btn btn-primary text-white px-5 btn-lg">ウェブサイト<i class="fas fa-external-link-alt ml-2"></i></a>
+                        <a href="{{ page.website }}" class="btn btn-primary text-white px-5 btn-lg">{{ site.data.languages[selected_lang].website }}<i class="fas fa-external-link-alt ml-2"></i></a>
                     </div>
                     {% endif %}
                 </div>
