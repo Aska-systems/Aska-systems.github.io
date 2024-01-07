@@ -2,7 +2,7 @@
 layout: post
 title:  "Survey Design Support & Small-Scale Surveys"
 categories: ['Survey']
-image: assets/images/Consulting.png
+image: assets/images/Consulting.jpg
 lang: 'en'
 ---
 For those who wish to conduct surveys that yield deeper insights, we offer support and implementation services for survey projects.

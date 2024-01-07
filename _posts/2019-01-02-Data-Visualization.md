@@ -3,7 +3,7 @@ layout: post
 title:  "Data Visualization"
 author: bouquet_diagram
 categories: ['Survey']
-image: assets/images/Hanataba_diagram_en.png
+image: assets/images/Hanataba_diagram_en.jpg
 website: https://www.instagram.com/bouquet_diagram/
 lang: 'en'
 ---

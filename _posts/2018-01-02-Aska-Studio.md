@@ -3,7 +3,7 @@ layout: post
 title:  "AI Videos from Documents"
 author: aska_studio
 categories: ['Promotion']
-image: assets/images/Aska_Studio_en.png
+image: assets/images/Aska_Studio_en.jpg
 lang: 'en'
 ---
 
@@ -17,6 +17,15 @@ The plan includes making final adjustments based on the review results.
 
 - The maximum length of the video is 15 minutes.
 - When generating videos from documents, we use generative AIs like GPT. Please be aware of this and place your order accordingly.
+
+![Aska_Studio_Procesure_en]({{ site.baseurl }}/assets/images/Aska_Studio_Procedure_en.png)
+
+
+### Samples
+A catalog ia available on Instagram!
+
+<a href="https://www.instagram.com/aska___studio">https://www.instagram.com/aska___studio</a>
+
 
 ### Orders
 - Please purchase through the order link below.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Data Cleaning"
 categories: ['Survey']
-image: assets/images/Data_cleaning.png
+image: assets/images/Data_cleaning.jpg
 lang: 'en'
 ---
 Are you analyzing your collected data as **raw data**? We offer data cleaning services.
