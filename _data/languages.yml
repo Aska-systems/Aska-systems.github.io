@@ -11,7 +11,7 @@ en:
   contact_us_message: "Details of Your Inquiry"
   contact_us_submit: "Send"
   about_ceo_name: "Tatsuro Kawamoto"
-  about_ceo_description: 'Proposed a survey method using machine learning techniques (<a href="https://www.nature.com/articles/s42256-019-0071-y">published in Nature Machine Intelligence <i class="fas fa-external-link-alt"></i></a>). Later, improved it for practical use and commercialized it as the SaaS app "Aska", founding Aska Intelligence LLC in 2023.'
+  about_ceo_description: '<a href="https://www.nature.com/articles/s42256-019-0071-y">Proposed a survey method using machine learning techniques <i class="fas fa-external-link-alt"></i></a>. Later, improved it for practical use and commercialized it as the SaaS app "Aska", founding Aska Intelligence LLC in 2023.'
   career: "Career"
   career_item_1: "・Senior researcher at National Institute of Advanced Industrial Science and Technology in Japan (currently taking a leave of absence)"
   career_item_2: "・Has publications in academic journals and international conferences, including Nature Machine Intelligence, NeurIPS, and Physical Review."

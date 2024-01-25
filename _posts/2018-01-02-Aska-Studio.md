@@ -33,6 +33,11 @@ Full videos are available on YouTube.
 
 
 ### Pricing & Service Details
+【Early Bird Special Offer】**$440/video (including TAX)** 
+
+~~$880/video (including TAX)~~
+
+
 - Video creation from your materials
 - Video length: Within 15 minutes
 - Delivery in `.mp4` file format
