@@ -28,7 +28,7 @@ A catalog of avatars is available on Instagram.
 ### YouTube Channel
 Full videos are available on YouTube.
 
-<a class="btn btn-primary text-white" href="https://www.instagram.com/aska___studio/">YouTube (@aska___studio)</a>
+<a class="btn btn-primary text-white" href="https://www.youtube.com/@aska__studio/videos">YouTube (@aska__studio)</a>
 
 
 
