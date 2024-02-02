@@ -7,9 +7,9 @@ image: assets/images/Aska_Studio_en.jpg
 lang: 'en'
 ---
 
-We create AI-explanatory videos from your PDF documents or online materials.
+We create AI-explanatory videos from your PDF documents.
 
-We produce videos using PDF documents, presentation slides, script manuscripts, and other materials, leveraging generative AI technology. 
+We produce videos based using PDF documents (presentation slides, narration scripts, and other materials are also welcome), leveraging generative AI technology. 
 <a href="#">It is possible to prepare explanatory videos in various languages at a reasonable price.</a>
 
 The produced videos can undergo a quality check through a pre-release review using <a href="https://aska.systems">Aska</a>. 
