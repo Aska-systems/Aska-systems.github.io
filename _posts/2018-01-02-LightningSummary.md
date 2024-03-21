@@ -30,7 +30,7 @@ Full videos are available on YouTube.
 
 
 ### Pricing & Service Details
-**$880/video (including TAX)** 
+**$990/video (+TAX)** 
 
 - Video creation from your materials
 - Video length: Within 15 minutes
