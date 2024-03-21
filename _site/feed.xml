@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2024-02-02T15:57:08+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aska Intelligence</title><author><name>Sal</name></author><entry xml:lang="en"><title type="html">Aska</title><link href="http://localhost:4000/Aska/" rel="alternate" type="text/html" title="Aska" /><published>2023-01-02T00:00:00+00:00</published><updated>2023-01-02T00:00:00+00:00</updated><id>http://localhost:4000/Aska</id><content type="html" xml:base="http://localhost:4000/Aska/"><![CDATA[<p>Aska is a SaaS application that allows for quantitative evaluation of open-ended survey responses.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2024-03-21T02:04:37+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aska Intelligence</title><author><name>Sal</name></author><entry xml:lang="en"><title type="html">Aska</title><link href="http://localhost:4000/Aska/" rel="alternate" type="text/html" title="Aska" /><published>2023-01-02T00:00:00+00:00</published><updated>2023-01-02T00:00:00+00:00</updated><id>http://localhost:4000/Aska</id><content type="html" xml:base="http://localhost:4000/Aska/"><![CDATA[<p>Aska is a SaaS application that allows for quantitative evaluation of open-ended survey responses.</p>
 
 <p>Aska operates like a social networking platform for sharing opinions. When an administrator user initiates a topic, respondent users can view each other’s opinions, ‘like’ these opinions, or post their own. Based on the ‘likes’ collected from respondents, Aska organizes and analyzes this data using machine learning and Large Language Models (LLMs). It provides analysis results in a structured format. This method, which employs <a href="#">a different approach than natural language processing, allows for quantitative evaluation of surveys, including open-ended responses.</a></p>
 
@@ -112,28 +112,15 @@
   <li>「類語・対義語の整合性」で矛盾を見抜く！</li>
 </ol>
 
-<p><img src="/assets/images/VideoList_DataScreening.png" alt="VideoList_DataScreening" /></p>]]></content><author><name>Sal</name></author><category term="アンケート関係" /><summary type="html"><![CDATA[調査設計や調査データの処理に関する様々な教材をご用意しております。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/SurveyMethodology.png" /><media:content medium="image" url="http://localhost:4000/assets/images/SurveyMethodology.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Data Visualization</title><link href="http://localhost:4000/Data-Visualization/" rel="alternate" type="text/html" title="Data Visualization" /><published>2019-01-02T00:00:00+00:00</published><updated>2019-01-02T00:00:00+00:00</updated><id>http://localhost:4000/Data-Visualization</id><content type="html" xml:base="http://localhost:4000/Data-Visualization/"><![CDATA[<p>We offer a service to beautifully visualize your survey data.</p>
+<p><img src="/assets/images/VideoList_DataScreening.png" alt="VideoList_DataScreening" /></p>]]></content><author><name>Sal</name></author><category term="アンケート関係" /><summary type="html"><![CDATA[調査設計や調査データの処理に関する様々な教材をご用意しております。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/SurveyMethodology.png" /><media:content medium="image" url="http://localhost:4000/assets/images/SurveyMethodology.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Bouquet diagram</title><link href="http://localhost:4000/Data-Visualization/" rel="alternate" type="text/html" title="Bouquet diagram" /><published>2019-01-02T00:00:00+00:00</published><updated>2019-01-02T00:00:00+00:00</updated><id>http://localhost:4000/Data-Visualization</id><content type="html" xml:base="http://localhost:4000/Data-Visualization/"><![CDATA[<p>We offer a service to beautifully visualize your survey data.</p>
 
-<p>From the data you provide, we create various visualizations, including the “Bouquet Diagram.”</p>
+<p>From the data you provide, we create various visualizations, including the “Bouquet diagram.”</p>
 
-<h2 id="bouquet-diagram">Bouquet Diagram</h2>
 <h3 id="brief-description">Brief Description</h3>
 <p>This is a chart that shows pie charts at the end of branches based on attributes, like “the percentage of men in their 30s who celebrate Christmas” or “the percentage of women among people in their 40s who don’t celebrate Christmas.” It allows you to overview the characteristics of results under various conditions.</p>
 
 <h3 id="detailed-description">Detailed Description</h3>
-<p>This is a diagram that represents multi-dimensional contingency tables with dendrograms and pie charts. Unlike normal dendrograms that inherently have a hierarchical structure, here, since the attributes themselves don’t have a hierarchy, by default, we draw all combinations of branches. The different branches are not independent; combinations with the same conditions will have the same distribution (reflecting the symmetry of the hypergeometric distribution). Behind the scenes, we calculate p-values using exact tests or chi-squared tests, allowing us to “prune” the branches of the dendrogram (note that this involves issues with multiple testing, so care must be taken when assessing statistical significance). If you have specific filtering conditions you want to focus on, we can “prune” accordingly.</p>
-
-<h2 id="orders">Orders</h2>
-<p>If you want to beautifully and clearly visualize your survey results, please place an order. Depending on your specified colors and filtering conditions, we will deliver one SVG file (vector data) and one PNG file (image data) each.
-(Note: The versions posted on Instagram have additional background decorations, but we deliver only the Bouquet Diagram itself.)</p>
-
-<h6>** The payment is currently available only in Japanese</h6>
-
-<script async="" src="https://js.stripe.com/v3/buy-button.js">
-</script>
-
-<stripe-buy-button buy-button-id="buy_btn_1OS9uRDo8uVOKmA4E7dmgnim" publishable-key="pk_live_51NqUGqDo8uVOKmA4DtdZ9oO9YwBtkt1dZQ0Qc1DQtjypo6Z2wVXXU9ftcghkFhA7dccnyfIJZ7Jz91a1t0StNCsF00gm5qcv37">
-</stripe-buy-button>]]></content><author><name>bouquet_diagram</name></author><category term="Survey" /><summary type="html"><![CDATA[We offer a service to beautifully visualize your survey data.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/Hanataba_diagram_en.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/Hanataba_diagram_en.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">データの可視化</title><link href="http://localhost:4000/Data-Visualization-ja/" rel="alternate" type="text/html" title="データの可視化" /><published>2019-01-01T00:00:00+00:00</published><updated>2019-01-01T00:00:00+00:00</updated><id>http://localhost:4000/Data-Visualization-ja</id><content type="html" xml:base="http://localhost:4000/Data-Visualization-ja/"><![CDATA[<p>収集したアンケート調査データを綺麗に可視化するサービスです。</p>
+<p>This is a diagram that represents multi-dimensional contingency tables with dendrograms and pie charts. Unlike normal dendrograms that inherently have a hierarchical structure, here, since the attributes themselves don’t have a hierarchy, by default, we draw all combinations of branches. The different branches are not independent; combinations with the same conditions will have the same distribution (reflecting the symmetry of the hypergeometric distribution). Behind the scenes, we calculate p-values using exact tests or chi-squared tests, allowing us to “prune” the branches of the dendrogram (note that this involves issues with multiple testing, so care must be taken when assessing statistical significance). If you have specific filtering conditions you want to focus on, we can “prune” accordingly.</p>]]></content><author><name>bouquet_diagram</name></author><category term="Survey" /><summary type="html"><![CDATA[We offer a service to beautifully visualize your survey data.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/Hanataba_diagram_en.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/Hanataba_diagram_en.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="ja"><title type="html">データの可視化</title><link href="http://localhost:4000/Data-Visualization-ja/" rel="alternate" type="text/html" title="データの可視化" /><published>2019-01-01T00:00:00+00:00</published><updated>2019-01-01T00:00:00+00:00</updated><id>http://localhost:4000/Data-Visualization-ja</id><content type="html" xml:base="http://localhost:4000/Data-Visualization-ja/"><![CDATA[<p>収集したアンケート調査データを綺麗に可視化するサービスです。</p>
 
 <p>提供いただいたデータから、「花束ダイアグラム」をはじめとして、様々な可視化を提供いたします。</p>
 
@@ -164,20 +151,16 @@ The plan includes making final adjustments based on the review results.</p>
 
 <p><img src="/assets/images/Aska_Studio_Procedure_en.png" alt="Aska_Studio_Procesure_en" /></p>
 
-<h3 id="instagram">Instagram</h3>
-<p>A catalog of avatars is available on Instagram.</p>
-
-<p><a class="btn btn-primary text-white" href="https://www.instagram.com/aska___studio/">Instagram (@aska___studio)</a></p>
+<h3 id="social-media">Social Media</h3>
+<p><a class="btn btn-primary text-white" href="https://twitter.com/LightninSummary">X (@LightninSummary)</a></p>
 
 <h3 id="youtube-channel">YouTube Channel</h3>
 <p>Full videos are available on YouTube.</p>
 
-<p><a class="btn btn-primary text-white" href="https://www.youtube.com/@aska__studio/videos">YouTube (@aska__studio)</a></p>
+<p><a class="btn btn-primary text-white" href="https://www.youtube.com/@lightning_summary/videos">YouTube (@lightning_summary)</a></p>
 
 <h3 id="pricing--service-details">Pricing &amp; Service Details</h3>
-<p>【Early Bird Special Offer】<strong>$440/video (including TAX)</strong></p>
-
-<p><del>$880/video (including TAX)</del></p>
+<p><strong>$880/video (including TAX)</strong></p>
 
 <ul>
   <li>Video creation from your materials</li>
@@ -188,17 +171,17 @@ The plan includes making final adjustments based on the review results.</p>
   <li>Maintenance revisions within one year of delivery (up to one time)</li>
 </ul>
 
+<h3 id="important-notes">Important Notes</h3>
+<ul>
+  <li>When generating videos from materials, we use generative AIs such as GPT. Please be aware of this and place your order accordingly.</li>
+  <li>For video creation, our service utilizes <a href="https://www.synthesia.io/">Synthesia</a>. We do not accept requests for video production that violate Synthesia’s terms of use. (We will inform you in advance if any problems arise with your order.)</li>
+</ul>
+
 <h3 id="order--inquiries">Order &amp; Inquiries</h3>
 <p><a class="btn btn-primary text-white" href="https://docs.google.com/forms/d/e/1FAIpQLSfXRxn56ShhVPaf3nNKq-8AzPfKipTN-M7fDift46vetxcqVQ/viewform?usp=sf_link">Google Form for Orders &amp; Inquiries</a></p>
 
 <ul>
   <li>After confirming your order, we will send you a payment link.</li>
   <li>We also accept inquiries through the above form.</li>
-  <li>We aim to produce the video within two weeks.</li>
-</ul>
-
-<h3 id="important-notes">Important Notes</h3>
-<ul>
-  <li>When generating videos from materials, we use generative AIs such as GPT. Please be aware of this and place your order accordingly.</li>
-  <li>For video creation, our service utilizes <a href="https://www.synthesia.io/">Synthesia</a>. We do not accept requests for video production that violate Synthesia’s terms of use, such as for videos intended for monetized advertising.</li>
+  <li>The video will be produced within about two weeks.</li>
 </ul>]]></content><author><name>aska_studio</name></author><category term="Promotion" /><summary type="html"><![CDATA[We create AI-explanatory videos from your PDF documents.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/Aska_Studio_en.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/Aska_Studio_en.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

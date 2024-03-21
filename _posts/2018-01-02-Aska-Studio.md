@@ -19,24 +19,18 @@ The plan includes making final adjustments based on the review results.
 ![Aska_Studio_Procesure_en]({{ site.baseurl }}/assets/images/Aska_Studio_Procedure_en.png)
 
 
-### Instagram
-A catalog of avatars is available on Instagram.
-
-<a class="btn btn-primary text-white" href="https://www.instagram.com/aska___studio/">Instagram (@aska___studio)</a>
+### Social Media
+<a class="btn btn-primary text-white" href="https://twitter.com/LightninSummary">X (@LightninSummary)</a>
 
 
 ### YouTube Channel
 Full videos are available on YouTube.
 
-<a class="btn btn-primary text-white" href="https://www.youtube.com/@aska__studio/videos">YouTube (@aska__studio)</a>
-
+<a class="btn btn-primary text-white" href="https://www.youtube.com/@lightning_summary/videos">YouTube (@lightning_summary)</a>
 
 
 ### Pricing & Service Details
-【Early Bird Special Offer】**$440/video (including TAX)** 
-
-~~$880/video (including TAX)~~
-
+**$880/video (including TAX)** 
 
 - Video creation from your materials
 - Video length: Within 15 minutes
@@ -46,6 +40,10 @@ Full videos are available on YouTube.
 - Maintenance revisions within one year of delivery (up to one time)
 
 
+### Important Notes
+- When generating videos from materials, we use generative AIs such as GPT. Please be aware of this and place your order accordingly.
+- For video creation, our service utilizes [Synthesia](https://www.synthesia.io/). We do not accept requests for video production that violate Synthesia's terms of use. (We will inform you in advance if any problems arise with your order.)
+
 
 
 ### Order & Inquiries
@@ -53,12 +51,7 @@ Full videos are available on YouTube.
 
 - After confirming your order, we will send you a payment link.
 - We also accept inquiries through the above form.
-- We aim to produce the video within two weeks.
+- The video will be produced within about two weeks.
 
-
-
-### Important Notes
-- When generating videos from materials, we use generative AIs such as GPT. Please be aware of this and place your order accordingly.
-- For video creation, our service utilizes [Synthesia](https://www.synthesia.io/). We do not accept requests for video production that violate Synthesia's terms of use, such as for videos intended for monetized advertising.
 
 
