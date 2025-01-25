@@ -4,25 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> | Aska Intelligence</title>
+    <title>Markdown Example | Aska Intelligence</title>
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Aska Intelligence | 世界をもっと理解できるようにする</title>
+<title>Markdown Example | Aska Intelligence</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Aska Intelligence" />
+<meta property="og:title" content="Markdown Example" />
+<meta name="author" content="jane" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Make the world more interpretable." />
-<meta property="og:description" content="Make the world more interpretable." />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Something." />
+<meta property="og:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Something." />
+<link rel="canonical" href="http://localhost:4000/markup-example/" />
+<meta property="og:url" content="http://localhost:4000/markup-example/" />
 <meta property="og:site_name" content="Aska Intelligence" />
-<meta property="og:image" content="http://localhost:4000/assets/images/aska_bg.svg" />
-<meta property="og:type" content="website" />
+<meta property="og:image" content="http://localhost:4000/assets/images/6.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-01-19T00:00:00+09:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/images/aska_bg.svg" />
-<meta property="twitter:title" content="Aska Intelligence" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/6.jpg" />
+<meta property="twitter:title" content="Markdown Example" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Make the world more interpretable.","headline":"Aska Intelligence","image":"http://localhost:4000/assets/images/aska_bg.svg","name":"Aska Intelligence","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jane"},"dateModified":"2019-01-19T00:00:00+09:00","datePublished":"2019-01-19T00:00:00+09:00","description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. Something.","headline":"Markdown Example","image":"http://localhost:4000/assets/images/6.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/markup-example/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"jane"},"url":"http://localhost:4000/markup-example/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -58,7 +60,7 @@
     </style>
 </head>
 
-<body class=" homefirstpage ">
+<body class="">
 
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -113,17 +115,17 @@ var documents = [{
     "id": 3,
     "url": "http://localhost:4000/author-jane.html",
     "title": "Jane",
-    "body": "                        Jane Follow:                                                    Posts by Jane:                   		戦争と平和についての世論調査 2024	: 		  ウクライナとロシアの戦争が開始から２年半が経ち、パレスチナとイスラエルの間にも緊張状態が続いています。戦争は人々の生命を賭けた国家間の究極の駆け引きであり、決して善悪の二元論で整理できるシンプルな問題ではありません。特に多くが国民国家である現在の世の中では、選挙を介して世論の影響が複雑かつ大きく国家の決定に関与します。従って、後世に歴史を振り返って過去から教訓を得. . . 	 			In 				世論調査, 								Sep 12, 2024						            		Markdown Example	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 				tutorial, 								Jan 19, 2019						        "
+    "body": "                        {{page. title}} Follow:         {{ site. authors. jane. site }}         {{ site. authors. jane. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , jane  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 4,
     "url": "http://localhost:4000/author-sal.html",
     "title": "Sal",
-    "body": "                        Sal Follow:         https://www. wowthemes. net         Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!                                   Posts by Sal:               "
+    "body": "                        {{page. title}} Follow:         {{ site. authors. sal. site }}         {{ site. authors. sal. bio }}                                   Posts by {{page. title}}:       {% assign posts = site. posts | where: author , sal  %}      {% for post in posts %}      {% include main-loop-card. html %}      {% endfor %}  "
     }, {
     "id": 5,
     "url": "http://localhost:4000/authors-list.html",
     "title": "Authors",
-    "body": "Authors:                                             Sal :       (View Posts)      Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!                          &nbsp;       &nbsp;                                                                             川本達郎 :       (View Posts)      Aska Intelligence 代表社員                          &nbsp;       &nbsp;                                      "
+    "body": "{{page. title}}:     {% for author in site. authors %}                                         {{ author[1]. name }} :       (View Posts)      {{ author[1]. bio }}                          &nbsp;       &nbsp;                                    {% endfor %}  "
     }, {
     "id": 6,
     "url": "http://localhost:4000/buy-me-a-coffee.html",
@@ -133,7 +135,7 @@ var documents = [{
     "id": 7,
     "url": "http://localhost:4000/categories.html",
     "title": "Categories",
-    "body": "          Categories               Jekyll:                                  		Markdown Example	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 				tutorial, 								Jan 19, 2019						                              tutorial:                                  		Markdown Example	: 		  You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common wa. . . 	 			In 				Jekyll, 				tutorial, 								Jan 19, 2019						                              世論調査:                                  		戦争と平和についての世論調査 2024	: 		  ウクライナとロシアの戦争が開始から２年半が経ち、パレスチナとイスラエルの間にも緊張状態が続いています。戦争は人々の生命を賭けた国家間の究極の駆け引きであり、決して善悪の二元論で整理できるシンプルな問題ではありません。特に多くが国民国家である現在の世の中では、選挙を介して世論の影響が複雑かつ大きく国家の決定に関与します。従って、後世に歴史を振り返って過去から教訓を得. . . 	 			In 				世論調査, 								Sep 12, 2024						                                             Featured:    				                                          Markdown Example                          In                     Jekyll,                     tutorial,                                                                   "
+    "body": "          Categories          {% for category in site. categories %}     {{ category[0] }}:           {% assign pages_list = category[1] %}    {% for post in pages_list %}    {% if post. title != null %}     {% if group == null or group == post. group %}           {% include main-loop-card. html %}     {% endif %}    {% endif %}    {% endfor %}    {% assign pages_list = nil %}    {% assign group = nil %}    {% endfor %}                  {% include sidebar-featured. html %}          "
     }, {
     "id": 8,
     "url": "http://localhost:4000/contact.html",
@@ -148,7 +150,7 @@ var documents = [{
     "id": 10,
     "url": "http://localhost:4000/",
     "title": "",
-    "body": "        我々のミッション  世界をもっと理解できるようにする     :   Make the world more interpretable.      世界は混沌としていて、単純には理解できない  あなたが知りたい・理解したいと思っている課題に対して、アンケートで「あなたは〇〇についてどう考えますか？」と聞いて調査したとしましょう。あなたはつい、白黒はっきりした結論が得られることをイメージしがちではないでしょうか。   しかし、人々の認知や主観を通じて世界の事象を理解しようとしたとき、結果は多くの場合に驚くほど複雑で混沌としていて、単純には理解できないのです。  そのような結果を安易に単純化してしまうことは、実態とは異なる二元論的な結論づけてしまう危険や、深く理解することを諦めてしまうことにつながります。   はっきり分かるわけではないけれど、まったく何も分からないわけではない。  そんな「人々の認知や主観を通じて得られる複雑な情報」を、人々がもっとよく理解できるような仕組みを作ることで、様々な領域に貢献できると考えています。   そのために我々は、1つ1つの領域に切り込んでいきます。   "
+    "body": "  {% if page. url ==  /  %}      我々のミッション  世界をもっと理解できるようにする     :   Make the world more interpretable.      世界は混沌としていて、単純には理解できない  あなたが知りたい・理解したいと思っている課題に対して、アンケートで「あなたは〇〇についてどう考えますか？」と聞いて調査したとしましょう。あなたはつい、白黒はっきりした結論が得られることをイメージしがちではないでしょうか。   しかし、人々の認知や主観を通じて世界の事象を理解しようとしたとき、結果は多くの場合に驚くほど複雑で混沌としていて、単純には理解できないのです。  そのような結果を安易に単純化してしまうことは、実態とは異なる二元論的な結論づけてしまう危険や、深く理解することを諦めてしまうことにつながります。   はっきり分かるわけではないけれど、まったく何も分からないわけではない。  そんな「人々の認知や主観を通じて得られる複雑な情報」を、人々がもっとよく理解できるような仕組みを作ることで、様々な領域に貢献できると考えています。   そのために我々は、1つ1つの領域に切り込んでいきます。 {% endif %}   "
     }, {
     "id": 11,
     "url": "http://localhost:4000/index_askabout/",
@@ -251,147 +253,166 @@ function lunr_search(term) {
 
     <!-- Content -->
     <main role="main" class="site-content">
-        <div class="container">
-<h3 class="font-weight-bold spanborder"><span></span></h3>
-<div class="row">
-    <div class="col-md-8">
-     
-    <img class="card-img-top mb-5 mr-5" src="http://localhost:4000/assets/images/aska_bg.svg" alt=""> 
-     
-    <div class="page-content">
-        <div class="container">
-    
-
-    
-    
-<h5 class="mb-4">
-    <u>我々のミッション</u>
-</h5>
-<h4>
-    世界をもっと理解できるようにする <br />
-    <!-- 世の中の不確定な情報を整理し、人々が解釈できるようにする -->
-    <!-- 人々の知恵を統合し、社会と産業に価値を創出する -->
-</h4>
-
-<p>
-    Make the world more interpretable. 
-</p>
-
-<!-- <p>
-    すべての人々が、事象・社会・モノをもっとよく理解できるような仕組みを創ります。
-</p> -->
-
-    
-<h5 class="mt-5 text-primary">
-    世界は混沌としていて、単純には理解できない
-</h5>
-<p>
-    あなたが知りたい・理解したいと思っている課題に対して、アンケートで「あなたは〇〇についてどう考えますか？」と聞いて調査したとしましょう。あなたはつい、白黒はっきりした結論が得られることをイメージしがちではないでしょうか。
-</p>
-<p>
-    しかし、人々の認知や主観を通じて世界の事象を理解しようとしたとき、結果は多くの場合に驚くほど複雑で混沌としていて、単純には理解できないのです。
-    そのような結果を安易に単純化してしまうことは、実態とは異なる二元論的な結論づけてしまう危険や、深く理解することを諦めてしまうことにつながります。
-</p>
-
-<p>
-    はっきり分かるわけではないけれど、まったく何も分からないわけではない。
-    そんな「人々の認知や主観を通じて得られる複雑な情報」を、人々がもっとよく理解できるような仕組みを作ることで、様々な領域に貢献できると考えています。
-</p>
-
-<p>
-    そのために我々は、1つ1つの領域に切り込んでいきます。
-</p>
-
- <!--endif page url is / -->
-    
-
-
-
-
-</div>
-        <!-- Comments -->
         
-    </div>
-    </div>
-    <div class="col-md-4">
-        <!-- <h5 class="mb-3"><a class="nav-link" href="/index.html">社会調査 - Askabout -</a></h5>
-
-<p>Aska Intelligenceでは、公益性があると考えるトピックについて、当社が主催する社会調査・実態調査を実施しています。調査結果は当社のウェブサイトにて公開していきます。</p>
-
-<a target="_blank" href="https://www.wowthemes.net/mundana-jekyll-theme/" class="btn btn-warning d-block mb-2"><i class="fa fa-file"></i> Documentation</a>
-
-<a target="_blank" class="btn btn-danger d-block" href="https://www.wowthemes.net/donate/"><i class="fa fa-coffee"></i> Buy me a coffee</a>  -->
-
-<!-- 
-<h3 class="mt-4 mb-3">- Projects -</h3>
-<h6 class="mb-1">世界をもっとよく理解する調査</h6>
-<a href="https://note.com/askaintelligence/m/maece3a3a7953" class="btn btn-warning d-block mb-2">Askabout（アスク・アバウト）</a> 
-<p class="nav-link mb-6">当社の公開調査レポートをnoteに掲載しています。</p>
- -->
-
-<h3 class="mt-4 mb-3">Services</h3>
-<a href="/sensei-madoguchi" class="btn btn-warning d-block mb-2">『先生の窓口』- 教員支援事業</a> 
-<p class="nav-link mb-3">「保護者と教職員の支援」をメインテーマに、コミュニティとして教職員の先生たちをサポートする仕組みを目指したサービスです</p>
-
-
-
-
-<h3 class="mt-5 mb-3">Technologies</h3>
-<a href="/products.html" class="btn btn-danger d-block mb-2">調査・分析ツール/サービス</a> 
-<p class="nav-link mb-3">当社が提供するツール・サービスの一覧です</p>
-
-
-<a href="/data-science.html" class="btn btn-secondary d-block mb-2">データサイエンス教材</a> 
-<p class="nav-link mb-3">データ分析関係の教材を公開しています（一部有料）</p>
-
-
-<!-- <h3 class="mt-5">- Use Cases -</h3>
-<p class="nav-link mb-1">大学教育でのAska導入事例</p>
-<ul>
-	<li class="mb-3"><a href="https://note.com/askabout/n/n9ae6d50a0b78?magazine_key=mf4261fada5b0">基礎看護技術演習（ベッドメーキング）のピア・フィードバックへの活用</a></li>
-	<li><a href="https://note.com/askabout/n/n93b7f43c0d0a?magazine_key=mf4261fada5b0">グループワーク授業での班分けを効率化</a></li>	
-</ul> -->
-
-<!-- <div class="jumbotron pt-3 pb-2">
-	<p class="mb-1">アンケート調査の依頼 / サポート依頼</p>
-	<a href="/askus" class="btn btn-danger d-block mb-4">AskUs（アスク・アス）</a> 
-
-	<p class="mb-1">スタートアップのための市場適合性調査</p>
-	<a target="_blank" href="https://aska-intelligence.com/market-fit-observatory/" class="btn btn-danger d-block mb-4">『マーケット-フィット観測所』</a>
-</div> -->
-
-<!-- <h3 class="mt-5">- Partnerships -</h3>
-<ul>
-	<li><a href="https://mirai.osaka-kyoiku.ac.jp/">大阪教育大学 みらい教育共創パートナー</a></li>
-</ul> -->
-
-
-<!-- <h5 class="mb-3"><a class="nav-link" href="/services">- Services/Products -</a></h5>
-
-<p>人々の知恵の統合に関連する様々なサービスや教材を提供しています。</p>
-
-<h5>データ収集・調査</h5>
-<ul>
-<li>アンケートシステム『Aska』</li>
-<li>リモート・コーチング『Kaskade』</li>
-<li>アンケート調査の受注</li>
-</ul>
-
-<h5>データサイエンス教材</h5>
-<ul>
-	<li>アンケート調査関係</li>
-	<li>データ分析関係</li>
-	<li>データ可視化関係</li>
-	<li>大規模言語モデル関係</li>
-</ul>
-
-<h5>その他のサービス</h5>
-<ul>
-	<li>PDF-to-Video サービス</li>
-</ul> -->
-    </div>
-</div>  
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-between ">
+				<div class=" col-md-6  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+                        <span class="catlist">
+						
+                          <a class="sscroll text-danger" href="/categories.html#jekyll">jekyll</a><span class="sep">, </span>
+                        
+                          <a class="sscroll text-danger" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+                        
+                        </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Markdown Example</h1>
+					<div class="d-flex align-items-center">
+                        
+						<small class="ml-3">  <span><a target="_blank" href="" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+                            <span class="text-muted d-block mt-1">Jan 19, 2019 · <span class="reading-time">
+  
+  
+    1 min read
+  
+</span>
+    </span>
+						</small>
+					</div>
+				</div>
+                
+				<div class="col-md-6 pr-0 align-self-center">
+					<img class="rounded" src="/assets/images/6.jpg" alt="Markdown Example">
+				</div>
+                
+			</div>
+		</div>
+	</div>
 </div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        
+        <!-- Share -->
+		<div class="col-lg-2 pr-4 mb-4 col-md-12">
+			<div class="sticky-top sticky-top-offset text-center">
+				<div class="text-muted">
+					Share this
+				</div>
+				<div class="share d-inline-block">
+					<!-- AddToAny BEGIN -->
+					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<!-- <a class="a2a_dd" href="https://www.addtoany.com/share"></a> -->
+						<a class="a2a_button_facebook"></a>
+						<a class="a2a_button_twitter"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+					<!-- AddToAny END -->
+				</div>
+			</div>
+		</div>
+        
+        
+		<div class="col-md-12 col-lg-8">
+            
+            <!-- Article -->
+			<article class="article-post">                
+			<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated. Something.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+                
+			</article>
+			
+			<!-- Tags -->
+			<div class="mb-4">
+				<span class="taglist">
+				
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#featured">featured</a>
+				
+				</span>
+			</div>
+ 
+            <!-- Mailchimp Subscribe Form -->
+            
+			<div class="border p-5 bg-lightblue">
+				<div class="row justify-content-between">
+					<div class="col-md-6 mb-2 mb-md-0">
+						<h5 class="font-weight-bold">Join Newsletter</h5>
+						 Get the latest news right in your inbox. We never spam!
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+                            <form action="" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
+                            <div class="mc-field-group">
+							
+								<input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
+							
+							
+								<button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
+							
+                            </div>
+                            </form>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            
+            
+             <!-- Author Box -->
+                				
+				<div class="row mt-5">
+					<div class="col-md-2 align-self-center">
+                          
+					</div>
+					<div class="col-md-10">		
+                        <h5 class="font-weight-bold">Written by  </h5>
+											
+					</div>
+				</div>				
+                
+            
+            <!-- Comments -->
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+<!-- Aletbar Prev/Next -->
+<div class="alertbar">
+    <div class="container">
+        <div class="row prevnextlinks small font-weight-bold">
+          
+          
+            <div class="col-md-6 text-right pr-0">
+                <a class="text-dark" href="/war-and-peace/"> 戦争と平和についての世論調査 2024  <img height="30px" class="ml-1" src="/assets/images/war-and-peace-2024.jpg"> </a>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
     </main>
 
 
