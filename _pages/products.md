@@ -18,6 +18,15 @@ Aska（アスカ）は、自由記述を含む回答をSNS形式で収集する�
 
 <a target="_blank" class="btn btn-warning mb-5" href="https://aska.systems/ja">Aska ランディングページ</a> 
 
+<div class="border p-4 bg-lightblue mb-4">
+	<div class="row justify-content-between">
+		<div class="ma-2">
+			<h5 class="font-weight-bold">ご案内</h5>
+			 Askaは、各用途に特化したバージョンであるAska3に移行するため、本バージョンのAska (ver. 2)は2025年8月31日をもってサービスを終了いたします。有料サブスクリプションにご加入のユーザー様は、契約期間中はAska3の各システムをご利用いただけますので、事務局までお問い合わせください。
+		</div>
+	</div>
+</div>
+
 #### <i class="fa fa-tv text-primary"></i> AIアンケートシミュレーター
 
 ![aska]({{ site.baseurl }}/assets/images/AI_simulator.jpg)
