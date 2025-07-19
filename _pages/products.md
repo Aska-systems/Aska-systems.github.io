@@ -8,8 +8,16 @@ comments: false
 
 <h3 class="text-dark font-weight-bold mb-4">アンケート調査ツール</h3>
 
+#### <i class="fa fa-tv text-primary"></i> Aska3
 
-#### <i class="fa fa-tv text-primary"></i> Aska【SaaS】
+<!-- ![aska]({{ site.baseurl }}/assets/images/Aska_survey.jpg) -->
+
+Aska3（アスカ・スリー）は、人々の認知を集計・管理・分析するためのSaaSシステムです。
+１つの汎用的なシステムではなく、各用途に応じた特化型システムを提供します。
+
+<a class="btn btn-warning mb-5" href="{{site.baseurl}}/aska3">詳しくはこちら</a> 
+
+#### <i class="fa fa-tv text-primary"></i> Aska (ver. 2)
 
 ![aska]({{ site.baseurl }}/assets/images/Aska_survey.jpg)
 
@@ -21,20 +29,29 @@ Aska（アスカ）は、自由記述を含む回答をSNS形式で収集する�
 <div class="border p-4 bg-lightblue mb-4">
 	<div class="row justify-content-between">
 		<div class="ma-2">
-			<h5 class="font-weight-bold">ご案内</h5>
+			<!-- <h5 class="font-weight-bold">ご案内</h5> -->
 			 Askaは、各用途に特化したバージョンであるAska3に移行するため、本バージョンのAska (ver. 2)は2025年8月31日をもってサービスを終了いたします。有料サブスクリプションにご加入のユーザー様は、契約期間中はAska3の各システムをご利用いただけますので、事務局までお問い合わせください。
 		</div>
 	</div>
 </div>
 
-#### <i class="fa fa-tv text-primary"></i> AIアンケートシミュレーター
+#### <i class="fa fa-tv text-primary"></i> AIアンケートシミュレーター (Aska3)
 
 ![aska]({{ site.baseurl }}/assets/images/AI_simulator.jpg)
 
 アンケート調査において調査設計は大変重要ですが、従来は専門家の経験知や対人のインタビュー調査に頼るしかありませんでした。
 マルチエージェントの生成AIシミュレーションは、従来の対人インタビュー調査を模倣し、効率的な調査設計を実現します。
 
-<a target="_blank" class="btn btn-warning mb-5" href="https://survey-simulator.studio.site/">AIアンケートシミュレーター</a> 
+<!-- <a target="_blank" class="btn btn-warning mb-5" href="https://survey-simulator.studio.site/">AIアンケートシミュレーター</a>  -->
+
+<div class="border p-4 bg-lightblue mb-4">
+	<div class="row justify-content-between">
+		<div class="ma-2">
+			<!-- <h5 class="font-weight-bold">ご案内</h5> -->
+			現在こちらはAska3の１バージョンとして運営されています。詳しくは、当社までお問い合わせください。
+		</div>
+	</div>
+</div>
 
 
 <!-- #### <i class="fa fa-tv text-primary"></i> [Kaskade【App】]()
@@ -55,7 +72,7 @@ Askaをはじめとして、Aska Intelligenceの調査技術やノウハウを�
 
 <a class="btn btn-warning mb-5" href="{{site.baseurl}}/askus">調査サポートについての詳細</a> 
 
-
+<!-- 
 #### <i class="fa fa-cubes text-primary"></i> PMF支援 - 『マーケット-フィット観測所』
 
 ![AskUs]({{ site.baseurl }}/assets/images/MarketFitObservatory.jpg)
@@ -66,7 +83,7 @@ Askaをはじめとして、Aska Intelligenceの調査技術やノウハウを�
 
 
 <a href="https://aska-intelligence.com/market-fit-observatory/" class="btn btn-warning mb-5">サービスの詳細</a>
-
+ -->
 <!-- <hr> -->
 
 
